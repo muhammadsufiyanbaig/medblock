@@ -50,18 +50,11 @@ Make sure you have the following installed on your system:
    npm install
    ```
 
-3. **Install backend dependencies:**
-
-   ```bash
-   npm install
-   ```
-
 ### Usage
 
 1. **Compile and deploy the smart contract using Hardhat:**
 
    ```bash
-   cd blockchain
    npx hardhat compile
    npx hardhat run scripts/00-deploy.js --network amoy
    ```
@@ -69,7 +62,6 @@ Make sure you have the following installed on your system:
 2. **Start the React application:**
 
    ```bash
-   cd ../client
    npm start
    ```
 
