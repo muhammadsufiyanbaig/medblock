@@ -47,14 +47,12 @@ Make sure you have the following installed on your system:
 2. **Install frontend dependencies:**
 
    ```bash
-   cd client
    npm install
    ```
 
 3. **Install backend dependencies:**
 
    ```bash
-   cd ../blockchain
    npm install
    ```
 
