@@ -104,6 +104,6 @@ For any questions or feedback, please contact:
 - **Email:** send.sufiyan@gmail.com
 - **GitHub:** [muhammadsufiyanbaig](https://github.com/muhammadsufiyanbaig)
 
-- **Project Partners**
-- ## Muhammad Salman
-- ## Muhammad Haziq
+- ## Project Partners
+- **Muhammad Salman**
+- **Muhammad Haziq**
