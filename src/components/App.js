@@ -38,6 +38,7 @@ function App() {
   return (
       <div className="">
         <Navbar />
+        <Option />
         <Routes>
           <Route path="/" exact element={<Hero />} />
           <Route path="/form" exact element={<Form />} />

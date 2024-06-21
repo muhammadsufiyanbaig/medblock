@@ -1,4 +1,5 @@
 import React from "react";
+import { Link } from "react-router-dom";
 
 const Hero = () => {
   return (
@@ -20,9 +21,9 @@ const Hero = () => {
         <p className="text-xl mb-8 max-w-2xl">
           Harnessing the power of blockchain technology to revolutionize the future of secure transactions and decentralized applications.
         </p>
-        <button className="bg-blue-500 hover:bg-blue-600 text-white font-bold py-2 px-4 rounded-full transition duration-300">
+        <Link to={'/form'} className="bg-blue-500 hover:bg-blue-600 text-white font-bold py-2 px-4 rounded-full transition duration-300">
           Get Started
-        </button>
+        </Link>
       </div>
     </div>
   );
