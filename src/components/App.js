@@ -1,7 +1,4 @@
 import { Route, Routes } from "react-router-dom";
-import Data from "./Data";
-import Form from "./Form";
-import Navbar from "./Navbar";
 import Hero from "./Hero";
 import { useEffect } from "react";
 import { useDispatch } from "react-redux";
@@ -14,8 +11,9 @@ import {
   subscribeToEvents,
 } from "../store/interactions";
 import config from "../config.json";
-import Option from './Option'
 import Alert from "./Alert";
+import Dashboard from "./Dashboard";
+import Record from "./Record";
 function App() {
   const dispatch = useDispatch();
   const loadBlockchainData = async () => {
@@ -37,12 +35,10 @@ function App() {
   });
   return (
       <div className="">
-        <Navbar />
-        <Option />
         <Routes>
           <Route path="/" exact element={<Hero />} />
-          <Route path="/form" exact element={<Form />} />
-          <Route path="/data" element={<Data />} />
+          <Route path="/dashboard" exact element={<Dashboard />} />
+          <Route path="/records" element={<Record />} />
         </Routes>
         <Alert />
       </div>
